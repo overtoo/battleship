@@ -1,5 +1,5 @@
 // const Gameboard = require("./gameboard");
-import Gameboard from "./Gameboard.js";
+import Gameboard from "./gameboard.js";
 
 const Player = (number, type) => {
   let isTurn = false;

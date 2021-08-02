@@ -42,7 +42,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   border-style: solid;
-  border-color: darkblue;
+  border-color: rgb(50, 50, 245);
   width: 220px;
   /* border-style: dashed; */
 }
@@ -51,15 +51,14 @@ body {
   height: 20px;
   width: 20px;
   border: 1px;
-  border-color: lightblue;
+  border-color: rgb(115, 201, 230);
   border-style: solid;
 }
 
 .miss {
-  color: blue;
-  background-color: lightblue;
+  background-color: rgb(115, 201, 230);
   border-style: solid;
-  border-color: lightblue;
+  border-color: rgb(115, 201, 230);
 }
 
 .hit {
