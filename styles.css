@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 540px;
+  display: flex;
+  /* border-style: dashed; */
+}
+
+.header {
+  margin: 0 auto;
+  width: 560px;
+  display: block;
+  text-align: center;
+  /* border-style: dashed; */
+}
+
+.board-wrapper {
+  margin: 30px;
+  margin-top: 0px;
+  /* border-style: dashed; */
+}
+
+.board-wrapper > span {
+  color: grey;
+  font-size: 13px;
+  /* border-style: dashed; */
+}
+
+.playerInfo {
+  float: right;
+  margin-top: 1px;
+  font-size: 10px;
+  color: darkgrey;
+}
+
+.board {
+  /* margin: 0 auto; */
+  margin-top: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-style: solid;
+  border-color: rgb(50, 50, 245);
+  width: 220px;
+  /* border-style: dashed; */
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+  border: 1px;
+  border-color: rgb(115, 201, 230);
+  border-style: solid;
+}
+
+.miss {
+  background-color: rgb(115, 201, 230);
+  border-style: solid;
+  border-color: rgb(115, 201, 230);
+}
+
+.hit {
+  color: red;
+  background-color: lightcoral;
+  border-color: lightcoral;
+  border-style: solid;
+}
+
+.empty {
+  color: white;
+}
+
+.boat {
+  background-color: darkblue;
+  border-color: darkblue;
+  border-style: solid;
+
+  /* padding: 10px; */
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
